@@ -13,6 +13,7 @@ void getTree() {
                 printf("%s\n", RESET);
         }
         printf("       %s|||%s\n\n", BROWN, RESET);
+	printf("\033[H\033[J");	// Clear terminal
 }
 
 int main(void) {
